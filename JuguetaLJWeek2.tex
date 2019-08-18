@@ -1,0 +1,158 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\title{FOAR705 - Learning Journal Week 2}
+\author{Jan Jugueta - 44828020}
+\date{Week 2: 5/8/19 - 11/8/19}
+
+\begin{document}
+
+\maketitle
+
+\section*{8/8/19 - 3:20pm}
+
+As part of last weeks homework, we were tasked to restore a file from 6 months ago. As I am a Mac user, I have been using Time Machine (sorry, not sorry) for my back ups. I have decided to restore a .pdf file of a CV I made at the start of the year.
+
+\textbf{Objective:} Restore Jan\_Jugueta CV.pdf file from Time Machine back up.
+
+\textbf{Action:}
+\begin{itemize}
+    \item Open Time Machine app.
+    \item Selected 19/1/19 as the date.
+    \item Opened Documents folder.
+    \item Opened Personal folder.
+    \item Selected 'Jan\_JuguetaCV.pdf' file.
+    \item Clicked Restore.
+    \item Selected option to Restore file to the Personal folder on my machine.
+\end{itemize}  
+
+\textbf{Error:} None
+
+\textbf{Result:} Restored Jan\_JuguetaCV.pdf file to Documents/Personal/
+
+\section*{10/8/19 - 4:18pm}
+
+I have decided to maintain my Learning Journal directly on Cloudstor so it will give me the ability to work on multiple machines with ease. 
+
+\section*{11/8/19 - 12:16pm}
+
+Having looked at my repository on the GitHub website again, I have decided to delete my ‘Jugueta-Exercises’ repository to start another one. This is because I have uploaded random files to the repository as a test, and now that I have a better understanding of what it is used for, I would rather it not be cluttered with unrelated data.
+
+\textbf{Objective:}Delete ‘Jugueta-Exercise’ repository and start a new repository with the same name ‘Jugueta-Exercise’.
+
+\textbf{Action:}
+\begin{itemize}
+    \item Clicked on the Settings button in the ‘Jugueta-Exercises’ repository page. 
+    \item Clicked on ‘Delete this repository’. 
+    \item Typed in the name of the repository ‘Jugueta-Exercises’ to confirm delete action. 
+    \item Entered GitHub password to confirm deletion.
+    \item Clicked on the + symbol and selected New Repository.
+    \item Named repository ‘Jugueta-Exercises’.
+    \item Selected to keep the repository Public.
+    \item Initialized the repository with a README.
+    \item Clicked Create Repository.
+\end{itemize}
+
+\textbf{Error:} None
+
+\textbf{Result:} Deleted old repository ‘Jugueta-Exercises’ and replaced it with a new repository with the same name.
+
+\section*{11/8/19 - 12:28pm}
+
+Working through the Introduction lesson on Data Carpentry. Currently working on part 1, Formatting data tables in spreadsheets. The messy data from the lesson has been downloaded and is stored in the FOAR705/Files/Data Carpentry/Introduction folder on my machine. 
+
+As advised by the lesson, I will not alter the original data and instead create a new tab to work on.
+
+\textbf{Objective:} Create a new data tab in Excel workbook.
+
+\textbf{Action:}
+\begin{itemize}
+    \item Open SAFI\_messy.xlsx file with Excel.
+    \item Create new tab by pressing the + symbol at the bottom of the screen.
+    \item Renamed new tab ‘DC Exercise’.
+\end{itemize}
+
+\textbf{Error:} None.
+
+\textbf{Result:} New tab created named 'DC Exercise'.
+
+\section*{11/8/19 - 12:48pm}
+
+Upon reviewing the SAFI\_messy.xlsx file, a few things stand out and need to be ordered in the new tab:
+
+\begin{itemize}
+    \item The Livestock table in the Mozambique tab contains multiple pieces of data in one cell.
+    \item Inconsistent naming of things (i.e. mabati\_sloping and mabatisloping).
+    \item The Tanzania tab has no Plot table.
+    \item Inconsistency when using ‘null’ and ‘false’ across both tabs.
+    \item Some blanks in cells. Unsure if they are ‘null’ values or have not yet been recorded.
+    \item Using cell highlighting in one tab to indicate additional information.
+    \item Using the * character to indicate additional information.
+    \item Inconsistent text/number align in the cells.
+\end{itemize}
+
+To get in the habit of constantly committing data to GitHub, I will commit the edited SAFI\_messy.xlsx file to GitHub. This version will have the newly created tab DC Exercise.
+
+\textbf{Objective:} Commit SAFI\_messy.xlsx file to GitHub.
+
+\textbf{Action:}
+\begin{itemize}
+    \item Selected Upload files in the Jugueta-Exercises repository in GitHub.
+    \item Dragged and dropped the SAFI\_messy.xlsx file from my machine to the upload window in GitHub.
+    \item Added the description ‘DC Introduction exercise’ to the upload.
+    \item Added the extended description ‘Edited SAFI\_messy.xlsx file with new DC Exercise tab.’
+    \item Clicked on Commit changes.
+\end{itemize}
+
+\textbf{Error:} None.
+
+\textbf{Result:} Uploaded SAFI\_messy.xlsx file to Jugueta-Exercises repository in GitHub.
+
+\section*{11/8/19 - 1:24pm}
+
+Finished reading the Metadata section in Formatting data tables in Spreadsheets. Two key points from this section are:
+\begin{itemize}
+    \item Metadata should not be stored with the data itself. It should be a separate file itself stored in the same directory.
+    \item Metadata will help inform you, or other researchers about the data and data collection.
+\end{itemize}
+
+As part of the Metadata exercise, I have downloaded the SAFI/_clean.csv file from the website and have moved it to FOAR705/Files/Data Carpentry/Introduction.
+
+\section*{11/8/19 - 1:50pm}
+
+Having opened and read the contents of the SAFI\_clean.csv file, my questions surrounding the file’s potential metadata are as follows:
+\begin{itemize}
+    \item What does ‘no\_membrs’ actually mean? Number of village members? Family members?
+    \item Is ‘years\_liv’ referencing the age of the interviewee? If not, then what?
+    \item What does ‘affect\_conflicts’ mean?
+    \item What constitutes as an item in the ‘items\_owned’ question?
+    \item I assume ‘no\_meals’ means number of meals, but is it referencing to daily meals, weekly meals or something else?
+\end{itemize}
+
+\section*{11/8/19 - 2:05pm}
+
+To get into the habit of version control, I have decided to enable version control and back up a copy of this Learning Journal to GitHub. As I will be performing this back up during the documentation of the process, the soon-to-be backed up version of this Learning Journal will not be able to document this process.
+
+\textbf{Objective:} Download current version of Learning Journal and commit to GitHub.
+
+\textbf{Action:}
+\begin{itemize}
+    \item Select File in Cloudstor.
+    \item Selected Download As > Docx (Word file).
+    \item Downloaded ‘Jan Jugueta - Learning Journal.docx’ to Download Folder on my machine.
+    \item Enter Jugueta-Exercises repository in GitHub.
+    \item Select Upload files.
+    \item Dragged and dropped ‘Jan Jugueta - Learning Journal.docx’ to upload window in GitHub.
+    \item Added the description ‘Learning Journal’.
+    \item Added ‘20190811 14:13’ in the extended description to indicate when the Learning Journal was from.
+    \item Clicked on Commit changes.
+\end{itemize}
+
+\textbf{Error:} None.
+
+\textbf{Result:} Uploaded ‘Jan Jugueta - Learning Journal.docx’ to GitHub.
+
+\end{document}
