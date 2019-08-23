@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\title{FOAR705 - Scoping Exercise II}
+\author{Jan Jugueta - 44828020}
+\date{22 August 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Reviewing the feedback given back to me from the first Scoping Exercise, I note that the Pains I had identified could have been more specific to my research context. To further clarify, the recurrent themes that I had identified in the Pains in my first Scoping Exercise are as follows:
+\begin{itemize}
+    \item Time Management
+    \item Note Taking Management
+    \item Reference Management
+\end{itemize}
+
+As you can see, they all refer to 'Management' of some sort. As my research will mostly be dealing with text sources as primary and secondary sources, much of my research process will involve taking notes of aforementioned sources and finding links between them. Therefore, this Scoping Exercise will focus on developing a Proof of Concept that will assist me in the efficient management of time. Currently, I am recording my notes from articles in multiple places (laptop, tablet and several notebooks). I do believe that I can improve this process.
+
+What I propose, is a Proof of Concept that is able to manage the notes that I write, cataloging them in a way that records information about the source. Then with all the relevant information recorded, I am able to recall notes on sources.
+
+\section{Decomposition}
+
+\subsection{Recording the notes}
+
+\begin{itemize}
+    \item Have all notes digitized if they are hand written in notebooks
+    \item Record:
+        \begin{itemize}
+            \item Author's name
+            \item Source type
+            \item Year
+            \item Discipline
+            \item Academic School/Paradigm
+            \item Keywords (specificed by user)
+            \item Notes
+        \end{itemize}
+    \item Store all information in one directory
+\end{itemize}
+
+\subsection{Recalling sources}
+
+Using a search function, recall notes that correspond to search requests. This could include a single field, i.e. 'Author's name' or a combination of fields e.g. "Anthropology" in 'Discipline' field and "identity" in 'Keywords'. This should render results for notes that have an anthropological background with the keyword 'identity'.
+
+\section{Pattern Recognition}
+
+Statistics could be outputted that show trends in:
+
+\begin{itemize}
+    \item The number of sources that come from a particular Discipline or School/Paradigm. This would be helpful in analyzing where potential gaps in research reside.
+    \item The age of the sources.
+    \item The type of sources used (i.e. alot of books, but not enough journals).
+\end{itemize}
+
+A computer would also be able to recognise the frequency of words in the 'Notes' that have been capture, possibly alluding to themes that were not apparent to the note taker at the time.
+
+\section{Algorithm}
+
+A potential work flow for this Proof of Concept is as follows:
+
+\begin{itemize}
+    \item User types up all notes (including hand written notes from a note book).
+    \item User stores all notes in a single directory.
+    \item User adds additional information to notes (could be metadata) including:
+        \begin{itemize}
+            \item Author's name
+            \item Source type
+            \item Year
+            \item Discipline
+            \item Academic School/Paradigm
+            \item Keywords (specificed by user)
+        \end{itemize}
+    \item When user wishes to recall notes that they want to use they are able to enter search terms in the fields listed above. The computer then can search for related items that satisfy the search criteria.
+    \item The computer can also calculate specific statistics on the notes recorded displaying trends to the user.
+    \item The computer can run textual analysis on the notes suggesting recurring words that appear (excluding definite and indefinite articles, pronouns and conjunctions).
+\end{itemize}
+
+\end{document}
